@@ -14,7 +14,7 @@ namespace OperacionArchivo.TXT
             {
                 int resultado = 0, sumaTotal = 0, indice;
 
-                string nombresLine = System.IO.File.ReadAllText(@"C:\Users\digis\OneDrive\Documents\AndresFerrerServin\Carga masiva\nombres.txt");
+                string nombresLine = System.IO.File.ReadAllText(@"C:\Users\digis\OneDrive\Documents\AndresFerrerServin\OperacionArchivo.TXT\nombres.txt");
 
 
                 var nombresArray = nombresLine.Split(",");
@@ -45,7 +45,7 @@ namespace OperacionArchivo.TXT
             catch (Exception)
             {
 
-                throw;  
+                
             }
         }
     }
