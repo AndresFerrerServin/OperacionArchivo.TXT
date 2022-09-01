@@ -1,0 +1,1 @@
+﻿OperacionArchivo.TXT.Operaciones.DoOperation();
